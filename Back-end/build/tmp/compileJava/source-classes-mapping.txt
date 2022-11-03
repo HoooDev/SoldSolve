@@ -2,10 +2,10 @@ com/ssafy/soldsolve/SoldSolveApplication.java
  com.ssafy.soldsolve.SoldSolveApplication
 com/ssafy/soldsolve/db/repository/TagProductRepository.java
  com.ssafy.soldsolve.db.repository.TagProductRepository
-com/ssafy/soldsolve/db/entity/Chat.java
- com.ssafy.soldsolve.db.entity.Chat
 com/ssafy/soldsolve/db/entity/ProductImg.java
  com.ssafy.soldsolve.db.entity.ProductImg
+com/ssafy/soldsolve/db/entity/Chat.java
+ com.ssafy.soldsolve.db.entity.Chat
 com/ssafy/soldsolve/config/JpaConfig.java
  com.ssafy.soldsolve.config.JpaConfig
 com/ssafy/soldsolve/api/request/LiveCreatePostReq.java
