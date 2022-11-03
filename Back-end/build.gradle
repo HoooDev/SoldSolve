@@ -30,6 +30,16 @@ plugins {
     id 'org.springframework.boot' version "${springBootVer}"
 }
 
+jar {
+    enabled = false
+}
+
+bootJar {
+    archivesBaseName = 'app'
+    archiveFileName = 'app.jar'
+}
+
+
 apply plugin: 'io.spring.dependency-management'
 apply plugin: 'eclipse'
 apply plugin: 'com.github.node-gradle.node'
