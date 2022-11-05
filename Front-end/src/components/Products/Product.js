@@ -22,7 +22,7 @@ import ShareIcon from '@mui/icons-material/Share';
 import CopyToClipboard from 'react-copy-to-clipboard';
 
 
-const OPENVIDU_SERVER_URL = 'https://i7c110.p.ssafy.io:8443';
+const OPENVIDU_SERVER_URL = 'https://15.164.35.67:8443';
 const OPENVIDU_SERVER_SECRET = 'SOLDSOLVE';
 
 function Product() {
@@ -98,7 +98,7 @@ function Product() {
           let goDetail = '/product/' + product.no
           let mainImg = null;
           if (product.productImg.length > 0) {
-            mainImg = 'https://i7c110.p.ssafy.io' + product.productImg[0].path
+            mainImg = 'https://15.164.35.67' + product.productImg[0].path
           }
           let price = product.price
           const productPrice = price.toLocaleString('ko-KR');
@@ -231,7 +231,7 @@ function Product() {
   const imglist = []
   if (productData && productData.productImg.length > 0) {
     for (let i = 0; i < productData.productImg.length; i++) {
-      imglist.push(<div id="slide-1" key={i}><img className='carousel_img' src={'https://i7c110.p.ssafy.io' + productData.productImg[i].path} alt=""></img></div>)
+      imglist.push(<div id="slide-1" key={i}><img className='carousel_img' src={'https://15.164.35.67' + productData.productImg[i].path} alt=""></img></div>)
     }
   }
 
@@ -306,7 +306,7 @@ function Product() {
               </div>
               <div className='user_box'>
                 <div className='user_info'>
-                  <img className="livechatimg" src={'https://i7c110.p.ssafy.io' + productData.user.profileUrl} alt="#"></img>
+                  <img className="livechatimg" src={'https://15.164.35.67' + productData.user.profileUrl} alt="#"></img>
                   <p className='user_name mx-2' style={{ margin: '1em 1em 1em 0', fontSize: '16px', fontWeight: 'bold' }}>
                     {productData.user.nickname} ({productData.region})</p>
                 </div>

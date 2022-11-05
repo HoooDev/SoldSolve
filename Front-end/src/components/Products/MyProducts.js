@@ -61,7 +61,7 @@ function MyProducts() {
             {data.map((product) => {
               let mainImg = null;
               if (product.productImg.length > 0) {
-                mainImg = 'https://i7c110.p.ssafy.io' + product.productImg[0].path
+                mainImg = 'https://15.164.35.67' + product.productImg[0].path
               }
               let pTitle = null;
               if (product.title.length > 8) {

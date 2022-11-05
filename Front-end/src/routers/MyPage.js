@@ -150,7 +150,7 @@ function MyPage() {
             <a href={`/product/${item.no}`} style={{ width: '125px', textAlign: 'center' }}>
               {item.state ? <ImageListItem key={item.no}>
                 <img
-                  src={`https://i7c110.p.ssafy.io${item.productImg[0].path}`}
+                  src={`https://15.164.35.67${item.productImg[0].path}`}
                   srcSet={`${item.productImg[0]}`}
                   alt={item.title}
                   loading="lazy"
@@ -165,7 +165,7 @@ function MyPage() {
               </ImageListItem> :
                 <ImageListItem key={item.no}>
                   <img
-                    src={`https://i7c110.p.ssafy.io${item.productImg[0].path}`}
+                    src={`https://15.164.35.67${item.productImg[0].path}`}
                     srcSet={`${item.productImg[0]}`}
                     alt={item.title}
                     loading="lazy"
@@ -199,7 +199,7 @@ function MyPage() {
             <a href={`/product/${item.product.no}`} style={{ width: '125px', textAlign: 'center' }}>
               <ImageListItem key={item.product.no}>
                 <img
-                  src={`https://i7c110.p.ssafy.io${item.product.productImg[0].path}`}
+                  src={`https://15.164.35.67${item.product.productImg[0].path}`}
                   srcSet={`${item.product.productImg[0]}`}
                   alt={item.title}
                   loading="lazy"
@@ -245,7 +245,7 @@ function MyPage() {
     return (
       <>
         <div className="profileImgBox">
-          <img className="profile" src={'https://i7c110.p.ssafy.io' + profile.profileUrl} />
+          <img className="profile" src={'https://15.164.35.67' + profile.profileUrl} />
         </div>
         <h3 style={{ margin: 15, position: 'relative', display: 'inline-block' }}>
           {profile.nickName}
@@ -295,7 +295,7 @@ function MyPage() {
               <a key={item.product.no} href={`/product/${item.product.no}`} style={{ width: '120px', height: '150px', textAlign: 'center', margin: '5px' }}>
                 <ImageListItem>
                   <img
-                    src={`https://i7c110.p.ssafy.io${item.product.productImg[0].path}`}
+                    src={`https://15.164.35.67${item.product.productImg[0].path}`}
                     srcSet={`${item.product.productImg[0]}`}
                     alt={item.product.title}
                     loading="lazy"

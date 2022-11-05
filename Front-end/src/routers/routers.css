@@ -212,7 +212,7 @@ input::placeholder {
   max-width: 950px;
   min-height: 350px;
   display: grid;
-  background-image: url('https://i7c110.p.ssafy.io/images/profile/NoLive.png');
+  background-image: url('https://15.164.35.67/images/profile/NoLive.png');
   background-size: 100% 100%;
 }
 
@@ -300,7 +300,7 @@ input::placeholder {
     position: relative;
     max-width: 950px;
     min-height: 350px;
-    background-image: url('https://i7c110.p.ssafy.io/images/profile/NoLive.png');
+    background-image: url('https://15.164.35.67/images/profile/NoLive.png');
     background-size: 100% 100%;
   }
 
@@ -406,7 +406,7 @@ input::placeholder {
     position: relative;
     max-width: 950px;
     min-height: 500px;
-    background-image: url('https://i7c110.p.ssafy.io/images/profile/NoLive.png');
+    background-image: url('https://15.164.35.67/images/profile/NoLive.png');
     background-size: 100% 100%;
   }
 
@@ -528,7 +528,7 @@ input::placeholder {
     position: relative;
     max-width: 950px;
     min-height: 500px;
-    background-image: url('https://i7c110.p.ssafy.io/images/profile/NoLive.png');
+    background-image: url('https://15.164.35.67/images/profile/NoLive.png');
     background-size: 100% 100%;
   }
 
@@ -640,7 +640,7 @@ input::placeholder {
     position: relative;
     max-width: 820px;
     min-height: 500px;
-    background-image: url('https://i7c110.p.ssafy.io/images/profile/NoLive.png');
+    background-image: url('https://15.164.35.67/images/profile/NoLive.png');
     background-size: 100% 100%;
   }
 
@@ -742,7 +742,7 @@ input::placeholder {
     min-height: 500px;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    background-image: url('https://i7c110.p.ssafy.io/images/profile/NoLive.png');
+    background-image: url('https://15.164.35.67/images/profile/NoLive.png');
     background-size: 100% 100%;
   }
 

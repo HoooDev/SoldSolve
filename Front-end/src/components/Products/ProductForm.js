@@ -49,7 +49,7 @@ function CreateProduct() {
 
           const imgs2 = []
           for (let i = 0; i < res.data.productImg.length; i++) {
-            imgs2.push(<img className="createproductimg" src={'https://i7c110.p.ssafy.io' + res.data.productImg[i].path} alt="#"></img>)
+            imgs2.push(<img className="createproductimg" src={'https://15.164.35.67' + res.data.productImg[i].path} alt="#"></img>)
           }
           console.log(imgs2)
           setEditImgData(imgs2)

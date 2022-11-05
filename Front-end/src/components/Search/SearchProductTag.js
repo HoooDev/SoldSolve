@@ -62,7 +62,7 @@ function SearchProductTag() {
                 {searchData.map((product) => {
                     let mainImg = null;
                     if (product.productImg.length > 0) {
-                        mainImg = 'https://i7c110.p.ssafy.io' + product.productImg[0].path
+                        mainImg = 'https://15.164.35.67' + product.productImg[0].path
                     }
                     let pTitle = null;
                     if (product.title.length > 8) {
@@ -105,7 +105,7 @@ function SearchProductTag() {
                                     <LikeButton no={product.no} />
                                     <LiveButton no={product.no} />
                                     <IconButton aria-label="share" onClick={function () { alert('링크가 복사되었습니다.') }} >
-                                        <CopyToClipboard text={`https://i7c110.p.ssafy.io/product/` + product.no}>
+                                        <CopyToClipboard text={`https://15.164.35.67/product/` + product.no}>
                                             <ShareIcon />
                                         </CopyToClipboard>
                                     </IconButton>
