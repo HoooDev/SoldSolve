@@ -33,7 +33,7 @@ let user = createSlice({
 const asyncOnclickMessage = createAsyncThunk(
   'updateRemainMessage', async () => {
     const result = await axios.get(
-      'https://i7c110.p.ssafy.io/api/messages/count',
+      'https://15.164.35.67/api/messages/count',
       {
         headers: {
           Authorization: `Bearer ${localStorage.token}`

@@ -3,7 +3,7 @@ import './modal.css';
 import axios from 'axios';
 import { useSelector } from 'react-redux';
 
-const OPENVIDU_SERVER_URL = 'https://i7c110.p.ssafy.io:8443';
+const OPENVIDU_SERVER_URL = 'https://15.164.35.67:8443';
 const OPENVIDU_SERVER_SECRET = 'SOLDSOLVE';
 
 const LiveNowUser = (props) => {

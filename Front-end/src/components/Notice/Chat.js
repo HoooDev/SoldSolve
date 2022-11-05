@@ -109,7 +109,7 @@ function Chat() {
                   navigate('/chatroom/' + room.roomId, { state: { roomId: room.roomId, me: me, you: you, yourId: yourId, myId: myId, sellerid: room.seller.userid, yourPk: yourPk } })
                 }}>
                   <div className="profile_box" style={{ background: '#BDBDBD' }}>
-                    <img className="profile_img" src={'https://i7c110.p.ssafy.io' + yourImg} alt='profileImg' />
+                    <img className="profile_img" src={'https://15.164.35.67' + yourImg} alt='profileImg' />
                   </div>
 
                   <div>
@@ -150,7 +150,7 @@ function Chat() {
                   })
                 }}>
                   <div className="profile_box" style={{ background: '#BDBDBD' }}>
-                    <img className="profile_img" src={'https://i7c110.p.ssafy.io' + yourImg} alt='profileImg' />
+                    <img className="profile_img" src={'https://15.164.35.67' + yourImg} alt='profileImg' />
                   </div>
 
                   <div>

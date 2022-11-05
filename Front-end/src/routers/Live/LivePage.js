@@ -15,7 +15,7 @@ import SentimentVeryDissatisfiedIcon from '@mui/icons-material/SentimentVeryDiss
 
 
 
-const OPENVIDU_SERVER_URL = 'https://i7c110.p.ssafy.io:8443';
+const OPENVIDU_SERVER_URL = 'https://15.164.35.67:8443';
 const OPENVIDU_SERVER_SECRET = 'SOLDSOLVE';
 
 class LivePage extends Component {
@@ -330,7 +330,7 @@ class LivePage extends Component {
                     <>
                       <div className='sellerInfo my-2'>
                         <div className='live_profile'>
-                          <img className='livechatimg' src={'https://i7c110.p.ssafy.io' + this.state.sellerInfo.profileUrl}></img>
+                          <img className='livechatimg' src={'https://15.164.35.67' + this.state.sellerInfo.profileUrl}></img>
                           <p style={{ marginTop: 0, marginBottom: 0, marginLeft: 10, fontSize: 13, fontWeight: 'bold' }}>{this.state.sellerInfo.nickname} ({this.state.region})</p>
                         </div>
                         <div className='infoList'>
